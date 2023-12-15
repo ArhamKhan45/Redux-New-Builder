@@ -1,0 +1,32 @@
+.custom-home {
+  text-align: center;
+  margin-top: 50px;
+}
+.custom-home > button {
+  padding: 10px 30px;
+  background-color: rgb(41, 41, 243);
+  color: white;
+  outline: none;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  border: none;
+}
+.custom-home > label {
+  margin: 0 30px;
+}
+
+.custom-home > button:active {
+  background-color: rgb(85, 28, 230);
+  color: white;
+}
+
+/* .custom-home input[type="number"] {
+  appearance: textfield;
+} */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  appearance: none;
+}
+input[type="number"] {
+  appearance: textfield;
+}
